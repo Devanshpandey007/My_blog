@@ -1,0 +1,28 @@
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 3rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    height: 4.5rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover; 
+  }
+  
